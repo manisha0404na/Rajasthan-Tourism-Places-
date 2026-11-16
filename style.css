@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: #FFF8E7;
+}
+
+/* HEADER - Ye 5 page pe same chalega */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.logo img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid orange;
+  object-fit: cover;
+}
+.logo p{
+  color: orange;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+nav ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #E65100;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #BF360C;
+    text-decoration: underline;
+}
+
+/* WELCOME BOX - Home + About + Destinations + Hotel + Contact sab ke liye */
+.Welcome-box, .welcome-box{
+    text-align: center;
+    background: #FFF8E7;
+    padding: 30px;
+    border-bottom: 4px double orange;
+}
+
+.top-desing{
+    text-align: center;
+    color: #b35c00;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.welcome-photo{
+    width: 90%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 6px solid white;
+    outline: 2px solid orange;
+    display: block;
+    margin: 0 auto;
+}
+
+.welcome-box h2, .Welcome-box h2{
+    text-align: center;
+    color: #BF360C;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.welcome-box p, .Welcome-box p{
+    font-size: 18px;
+    margin-top: 8px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.bottom-desing, .bottom-design{
+    text-align: center;
+    color: #b35c00;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/* KUMBHALGARH BOX - Sirf Home page ke liye */
+.kumbhalgarh-box{
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+    padding: 30px;
+    background: #FFF8E7;
+}
+
+.kumbhalgarh-text{
+    width: 55%;
+    text-align: left;
+}
+
+.kumbhalgarh-text h2{
+    color: #BF360C;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.kumbhalgarh-text p{
+    font-size: 18px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.kumbhalgarh-photo{
+    width: 45%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px; 
+     border: 4px solid white;
+    outline: 2px solid orange;
+    
+}
+/* MEHRANGARH BOX - Sirf Home page ke liye */
+.mehrangarh-box{
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+    padding: 30px;
+    background: #FFF8E7;
+}
+
+.mehrangarh-text{
+    width: 55%;
+    text-align: left;
+}
+.mehrangarh-text h2{
+    color: #BF360C;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.mehrangarh-text p{
+    font-size: 18px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.mehrangarh-photo{
+    width: 45%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px; 
+    border: 4px solid white;
+    outline: 2px solid orange
+}
+    
+/* JAIPUR  BOX - Sirf Home page ke liye */
+.jaipur-box{
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+    padding: 30px;
+    background: #FFF8E7;
+}
+
+.jaipur-text{
+    width: 55%;
+    text-align: left;
+}
+.jaipur-text h2{
+    color: #BF360C;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.jaipur-text p{
+    font-size: 18px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.jaipur-photo{
+    width: 45%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px; 
+    border: 4px solid white;
+    outline: 2px solid orange
+}
+   
+
+/* Poora page */
+body {
+    background-color: #f2e8d5;
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Upar wala ABOUT US menu */
+.menu {
+    background-color: white;
+    width: 350px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 6px;
+}
+/* filming  BOX - Sirf Home page ke liye */
+.filming-box{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    padding: 40px;
+    background: #FFF8E7;
+}
+
+.filming-text{
+    width: 55%;
+    text-align: left;
+}
+.filming-text h2{
+    color: #BF360C;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.filming-text p{
+    font-size: 18px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+.cultur-photo{
+    width: 35%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 0px; 
+    border: none;
+    outline: none;
+}
